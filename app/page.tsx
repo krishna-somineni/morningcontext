@@ -1,9 +1,18 @@
 import Image from "next/image";
+import StatusBar from "./pages/StatusBar";
+import Navbar from "./pages/Navbar/Navbar";
+import Header from "./pages/header/Header";
+import NewsBody from "./pages/newsBody/NewsBody";
 
 export default function Home() {
   return (
     <>
-    <h1> morning context</h1>
+    <div className="h-screen overflow-y-auto overflow-x-hidden">
+    <StatusBar/>
+    <Navbar/>
+    <Header/>
+    <NewsBody/>
+    </div>
     </>
   );
 }

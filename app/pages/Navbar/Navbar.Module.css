@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 10px;
+  }
+  
+  .menuIcon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .menuLine {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin: 3px 0;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brandName {
+    font-size: 13px;
+    color: #2D2D2D;
+    margin-left: 8px;
+  }
+  
+  .searchIcon {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .signupButton {
+    color: #fff;
+    background: linear-gradient(90deg, #85F1C7, #69B0F4);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  

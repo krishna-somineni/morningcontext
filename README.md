@@ -13,7 +13,7 @@ Responsive Design:
     1.Mobile and Large Screen Compatibility:
     2.This project is optimized for both mobile and large screens.
     3.To check mobile responsiveness, open Developer Tools and select the device toolbar.
-    4.Choose "Pixel 7" from the device options to view the mobile layout.
+    4.Choose "Pixel 7" from the device options to view the mobile layout and zoom it 100%.
 
 Project Structure:
 

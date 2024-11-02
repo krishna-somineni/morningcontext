@@ -1,10 +1,7 @@
 import NewsCard from "@/app/features/NewsCard";
 import { CARDS_ROWS_DATA } from "@/app/utils/Constants"
+import { cardRow } from "@/app/utils/Interfaces";
 
-interface cardRow {
-    time: string;
-    description: string;
-}
 
 const NewsCards=()=>
 {
@@ -17,7 +14,7 @@ const NewsCards=()=>
                     cardRowsData.map((card, index) => {
                     return (
                         <NewsCard card={card}></NewsCard>
-                    );
+                        );
                     })
                 }
                 </div>    

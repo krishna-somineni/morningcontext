@@ -1,5 +1,4 @@
 import { EXPLORE_ON_PLATFORMS } from "@/app/utils/Constants"
-import { platform } from "os"
 
 const ExploreNewsLetter=()=>
 {
@@ -21,5 +20,4 @@ const ExploreNewsLetter=()=>
         </div>
     )
 }
-
 export default ExploreNewsLetter

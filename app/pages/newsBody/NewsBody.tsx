@@ -15,7 +15,6 @@ const NewsBody=()=>
                 <div>
                     <NewsCards />
                 </div>
-                
                 {/* Editions - Stack on small screens, side-by-side on large screens */}
                 <div className="flex flex-col lg:flex-row lg:space-x-6 lg:mx-28">
                     <div className="w-full lg:w-2/3">
@@ -27,8 +26,7 @@ const NewsBody=()=>
                 </div>
             </div>
         </div>
-
-            {/* Separate container for Top Stories and Newsletters */}
+        {/* Separate container for Top Stories and Newsletters */}
         <div className="py-6">
                 <div className="flex flex-col lg:flex-col lg:space-x-6 lg:mx-12 lg:items-center ">
                         <div className="w-full ">
@@ -42,9 +40,7 @@ const NewsBody=()=>
                        <ExploreNewsLetter/>
                 </div>
         </div>
-
         </>
     )
 }
-
 export default NewsBody

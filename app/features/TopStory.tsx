@@ -1,13 +1,10 @@
 import Image from "next/image"
-import cookingFood from '../../public/images/food.jpg'
 import authorPhoto from '../../public/images/Author-avatar.png'
-
 
 const TopStory=(props:any)=>
 {
     const {heading,title,editorName,comments,imagePath} =props.story
     const index=props.index
-
     return (
         <div className="w-[280px] h-[263px] min-w-[250px] flex-shrink-0 p-4  space-y-1 bg-white flex flex-row">
             <div className="mr-2 mt-7 text-[30px] text-[rgba(161,161,161,1)] font-semibold"> 
@@ -31,5 +28,4 @@ const TopStory=(props:any)=>
         </div>
     )
 }
-
 export default TopStory

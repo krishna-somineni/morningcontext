@@ -4,8 +4,11 @@ import zeptoImg from '../../public/images/zepto.jpg'
 
 export const CAUROSEL_HEADING="OUR JOURNALISM";
 export const CAUROSEL_HEADING_DESCRIPTION="The Morning Context makes you smarter with original, accurate and independent journalism.";
-
 export const CAUROSEL_HEADING_SUBSCRIBE="SUBSCRIBE";
+export const NEWS_LETTER_SUB_TITLE="A wealth of knowledge from India's top writers curated for you by The Morning Context.";
+export const NEWS_LETTER_TITLE="Latest Newsletters";
+export const TODAYS_EDITION_TITLE="Today's Edition";
+export const TOP_STORIES_TITLE="Top Stories";
 
 export const CARDS_ROWS_DATA=[
 
@@ -182,7 +185,6 @@ export const NEWS_LETTERS_DATA=[
         comments:"23",
         titleTextSize:'16px'
     },
-    
 ]
 
 export const EXPLORE_ON_PLATFORMS=["Internet" ,'Business','Chaos','Sports','Economics','Legal','Science','Govt Policy'];

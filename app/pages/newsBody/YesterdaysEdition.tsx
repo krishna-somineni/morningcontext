@@ -1,11 +1,6 @@
 import YesterdaysCard from "@/app/features/YesterdaysCard";
 import { YESTERDAYS_EDITION_DATA } from "@/app/utils/Constants"
-interface yesterday {
-    title: string;
-    description: string;
-    borderColor: string;
-    background: string;
-}
+import { yesterday } from "@/app/utils/Interfaces";
 
 const YesterdaysEdition=()=>
 {

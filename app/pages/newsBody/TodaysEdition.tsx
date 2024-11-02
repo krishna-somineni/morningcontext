@@ -7,7 +7,11 @@ interface Article {
     description: string;
     editorName: string;
     timeToRead: string;
-    comments: string;    
+    displayDescription:boolean,
+    displayImage:boolean,
+    comments: string;  
+    titleTextSize:string,
+    displayTimeToRead:boolean,
 }
 
 const TodaysEdition=()=>
@@ -28,6 +32,7 @@ const TodaysEdition=()=>
                         })
                 }
             </div>
+            <button className="w-[335px] h-[40px] border mx-auto block text-white px-[14px] my-6 bg-[rgba(108,122,246,1)]">VIEW ALL STORIES</button>
             </div>
             </>
     )

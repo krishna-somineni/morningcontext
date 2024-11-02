@@ -3,6 +3,7 @@ import StatusBar from "./pages/StatusBar";
 import Navbar from "./pages/Navbar/Navbar";
 import Header from "./pages/header/Header";
 import NewsBody from "./pages/newsBody/NewsBody";
+import Footer from "./pages/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Navbar/>
     <Header/>
     <NewsBody/>
+    <Footer/>
     </div>
     </>
   );

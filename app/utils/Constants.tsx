@@ -1,3 +1,7 @@
+
+import farmImg from '../../public/images/farm.jpg'
+import zeptoImg from '../../public/images/zepto.jpg'
+
 export const CAUROSEL_HEADING="OUR JOURNALISM";
 export const CAUROSEL_HEADING_DESCRIPTION="The Morning Context makes you smarter with original, accurate and independent journalism.";
 
@@ -23,6 +27,7 @@ export const CARDS_ROWS_DATA=[
 
 export const TODAYS_EDITION_DATA=[
     {
+        imagePath:farmImg,
         headerColor:"rgba(44, 182, 128, 1)",
         heading:"BUSINESS",
         title:"Is Bandhan banking too much on microfinance? ",
@@ -37,6 +42,7 @@ export const TODAYS_EDITION_DATA=[
 
     },
     {
+        imagePath:zeptoImg,
         headerColor:"rgba(44, 182, 128, 1)",
         heading:"BUSINESS",
         title:"Is Bandhan banking too much on microfinance? ",
@@ -50,6 +56,8 @@ export const TODAYS_EDITION_DATA=[
         displayTimeToRead:true,
     },
     {
+        imagePath:farmImg,
+
         headerColor:"rgba(44, 182, 128, 1)",
         heading:"BUSINESS",
         title:"Is Bandhan banking too much on microfinance? ",
@@ -101,6 +109,7 @@ export const YESTERDAYS_EDITION_DATA=[
 
 export const NEWS_LETTERS_DATA=[
     {
+        imagePath:farmImg,
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
         title:"Is Bandhan banking too much on microfinance? ",
@@ -115,6 +124,7 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
+        imagePath:zeptoImg,
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
         title:"Johnny Depp’s doctor, nurse testify; actor expected to take stand",
@@ -128,6 +138,8 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
+        imagePath:farmImg,
+
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
         title:"Is Bandhan banking too much on microfinance? ",
@@ -142,6 +154,8 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
+        imagePath:zeptoImg,
+
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
         title:"Johnny Depp’s doctor, nurse testify; actor expected to take stand",
@@ -155,6 +169,7 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
+        imagePath:farmImg,
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
         title:"Is Bandhan banking too much on microfinance? ",
@@ -169,3 +184,5 @@ export const NEWS_LETTERS_DATA=[
     },
     
 ]
+
+export const EXPLORE_ON_PLATFORMS=["Internet" ,'Business','Chaos','Sports','Economics','Legal','Science','Govt Policy'];

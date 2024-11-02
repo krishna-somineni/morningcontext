@@ -12,6 +12,10 @@ const YesterdaysEdition=()=>
     const yesterdaysEditionData :yesterday[]=YESTERDAYS_EDITION_DATA
     return (
         <div>
+            <div className="flex justify-between mx-5"> 
+                <span className="text-[16px] font-normal tracking-widest font-serif text-[rgba(13,37,108,1)]">YESTERDAY</span>
+                <span className="text-[rgba(41,41,41,0.5)] font-sans tracking-widest">April 12, 2022</span>
+            </div>
             {
                 yesterdaysEditionData.map(card=>
                     {

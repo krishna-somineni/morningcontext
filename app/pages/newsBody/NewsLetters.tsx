@@ -6,7 +6,7 @@ const NewsLetters=()=>
 {
     const newsLettersData=NEWS_LETTERS_DATA
     return(
-        <div>
+        <div className="lg:mx-28">
             <div className="flex flex-col items-center">
                 <span className="font-bold text-[30px] leading-[51px] font-serif mt-10 mb-4">Latest Newsletters</span>
                 <span className="text-center text-[14px] font-normal px-10 font-serif">A wealth of knowledge from India's top writers curated for you by The Morning Context.</span>

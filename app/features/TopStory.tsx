@@ -1,9 +1,11 @@
 import Image from "next/image"
 import cookingFood from '../../public/images/food.jpg'
+import authorPhoto from '../../public/images/Author-avatar.png'
+
 
 const TopStory=(props:any)=>
 {
-    const {heading,title,editorName,comments} =props.story
+    const {heading,title,editorName,comments,imagePath} =props.story
     const index=props.index
 
     return (
@@ -13,11 +15,11 @@ const TopStory=(props:any)=>
             </div>
             <div>
                 <span className="text-green-400 font-bold text-[12px] my-1">{heading}</span>
-                <Image src={cookingFood} alt="editionPhoto" className="w-[254px] h-[128px] object-fill my-1"></Image>
+                <Image src={imagePath} alt="editionPhoto" className="w-[254px] h-[128px] object-fill my-1"></Image>
                 <span className="text-[13px] font-bold font-sans my-1">{title}</span>
                 <div className="flex flex-row justify-between">
                     <div className="flex items-center"> 
-                            <Image  src={cookingFood} alt="authorPhoto" height={22} width={22} className="mr-3"></Image>
+                            <Image  src={authorPhoto} alt="authorPhoto" height={22} width={22} className="mr-3"></Image>
                             <span className="text-[16px]">{editorName}</span>
                     </div>
                     <div className="flex items-center">

@@ -11,11 +11,11 @@ const TodaysEdition=()=>
                 <span className="font-bold text-[30px] leading-[51px] font-serif">{TODAYS_EDITION_TITLE}</span>
                 <div>
                     {
-                        articlesData.map((article:articleInterface )=>
+                        articlesData.map((article:articleInterface,index )=>
                             {
                                 return (
                                     //using the reusable component for rendering all the articles
-                                    <Article articleData={article}></Article>
+                                    <Article  key={index} articleData={article}></Article>
                                 )
                             })
                     }

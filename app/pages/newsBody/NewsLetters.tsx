@@ -14,11 +14,11 @@ const NewsLetters=()=>
             </div>
             <div>
                 {
-                    newsLettersData.map((newsLetter:articleInterface)=>
+                    newsLettersData.map((newsLetter:articleInterface,index)=>
                         {
                             // using the article reusable compoents to render the newsLetter
                             return (
-                                <Article  articleData={newsLetter}></Article>
+                                <Article key={index}  articleData={newsLetter}></Article>
                             )
                         }
                     )

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import StatusBar from "./pages/StatusBar";
 import Navbar from "./pages/Navbar/Navbar";
 import Header from "./pages/header/Header";

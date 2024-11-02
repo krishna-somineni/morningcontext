@@ -15,7 +15,7 @@ const TopStories=()=>
                     topStoriesData.map((story,index)=>
                         {
                             return (
-                                <TopStory story={story} index={index}></TopStory>
+                                <TopStory key={index} story={story} index={index}></TopStory>
                             )
                         })
                 }

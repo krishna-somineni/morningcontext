@@ -1,7 +1,8 @@
 import Image from "next/image"
 import authorPhoto from '../../public/images/Author-avatar.png'
+import { topStoryPropsInterface } from "../utils/Interfaces"
 
-const TopStory=(props:any)=>
+const TopStory=(props:topStoryPropsInterface)=>
 {
     const {heading,title,editorName,comments,imagePath} =props.story
     const index=props.index

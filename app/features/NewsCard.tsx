@@ -1,5 +1,6 @@
+import { newsCardPropsInterface } from "../utils/Interfaces";
 
-const NewsCard=(props:any)=>
+const NewsCard=(props:newsCardPropsInterface)=>
 {
     const {time,description}=props.card
     // destructuring the data of newsCard

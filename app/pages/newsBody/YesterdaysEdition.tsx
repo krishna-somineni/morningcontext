@@ -12,10 +12,10 @@ const YesterdaysEdition=()=>
                 <span className="text-[rgba(41,41,41,0.5)] font-sans tracking-widest">April 12, 2022</span>
             </div>
             {
-                yesterdaysEditionData.map(card=>
+                yesterdaysEditionData.map((card,index)=>
                     {
                         return (
-                            <YesterdaysCard yesData={card}></YesterdaysCard>
+                            <YesterdaysCard  key={index} yesData={card}></YesterdaysCard>
                         )
                     })
             }

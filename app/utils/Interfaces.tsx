@@ -1,7 +1,8 @@
 import { StaticImageData } from "next/image";
 
 export interface articleInterface {
-    imagePath?:StaticImageData
+    headerColor?:string;
+    imagePath:StaticImageData;
     heading?: string;
     title?: string;
     description?: string;
@@ -24,4 +25,25 @@ export interface yesterday {
     description: string;
     borderColor: string;
     background: string;
+}
+
+export interface articlePropsInterface
+{
+    articleData:articleInterface
+}
+
+export interface newsCardPropsInterface
+{
+    card:cardRow
+}
+
+export interface topStoryPropsInterface
+{
+    story:articleInterface
+    index:number
+}
+
+export interface yesterdaysCardPropsInterface
+{
+    yesData:yesterday
 }

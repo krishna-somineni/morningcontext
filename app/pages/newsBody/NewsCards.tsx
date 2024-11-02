@@ -13,7 +13,7 @@ const NewsCards=()=>
                     // using the reusable component cardRow for all the newsCards
                     cardRowsData.map((card, index) => {
                     return (
-                        <NewsCard card={card}></NewsCard>
+                        <NewsCard key={index} card={card}></NewsCard>
                         );
                     })
                 }

@@ -1,4 +1,6 @@
-const YesterdaysCard=(props :any)=>
+import { yesterdaysCardPropsInterface } from "../utils/Interfaces"
+
+const YesterdaysCard=(props :yesterdaysCardPropsInterface)=>
 {
     const {title,description,borderColor,background}=props.yesData
     return(

@@ -1,7 +1,8 @@
 import Image from "next/image"
 import authorPhoto from '../../public/images/Author-avatar.png'
+import { articlePropsInterface } from "../utils/Interfaces"
 
-const Article=(props:any)=>
+const Article=(props:articlePropsInterface)=>
 {
     const {heading,title,description,editorName,timeToRead,comments,displayDescription,displayImage,titleTextSize,displayTimeToRead,headerColor,imagePath} =props.articleData
     return(

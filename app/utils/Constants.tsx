@@ -9,6 +9,7 @@ export const NEWS_LETTER_SUB_TITLE="A wealth of knowledge from India's top write
 export const NEWS_LETTER_TITLE="Latest Newsletters";
 export const TODAYS_EDITION_TITLE="Today's Edition";
 export const TOP_STORIES_TITLE="Top Stories";
+export const LOGO_URL="https://assets.themorningcontext.com/img/tmc-header-logo.png"; 
 
 export const CARDS_ROWS_DATA=[
 

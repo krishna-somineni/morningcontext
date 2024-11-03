@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import logoImage from '../../../public/images/Ellipse 2.36.jpg'; 
 import search from '../../../public/images/Search_icon.jpg';
 import styles from './Navbar.module.css';
+import { LOGO_URL } from '@/app/utils/Constants';
 
 const Navbar = () => {
   return (
@@ -12,9 +12,8 @@ const Navbar = () => {
                 <span className={styles.menuLine}></span>
                 <span className={styles.menuLine}></span>
             </div>
-            <div className={styles.logoContainer}>
-                <Image src={logoImage} alt="The Morning Context" width={40} height={40} />
-                <span className={styles.brandName}>THE MORNING CONTEXT</span>
+            <div className=" w-[110px] h-[37px]">
+                <img src={LOGO_URL} alt="The Morning Context" />     
             </div>
       </div>
       <div className='flex lg:flex'>

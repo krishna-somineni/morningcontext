@@ -1,4 +1,3 @@
-// components/Footer.js
 import Image from 'next/image';
 import logo from  '../../public/images/Ellipse 2.36.jpg'
 

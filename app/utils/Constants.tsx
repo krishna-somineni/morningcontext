@@ -1,7 +1,4 @@
 
-import farmImg from '../../public/images/farm.jpg'
-import zeptoImg from '../../public/images/zepto.jpg'
-
 export const CAUROSEL_HEADING="OUR JOURNALISM";
 export const CAUROSEL_HEADING_DESCRIPTION="The Morning Context makes you smarter with original, accurate and independent journalism.";
 export const CAUROSEL_HEADING_SUBSCRIBE="SUBSCRIBE";
@@ -31,10 +28,10 @@ export const CARDS_ROWS_DATA=[
 
 export const TODAYS_EDITION_DATA=[
     {
-        imagePath:farmImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/301024_QCom_Pradip_Saha.jpg",
         headerColor:"rgba(44, 182, 128, 1)",
         heading:"BUSINESS",
-        title:"Is Bandhan banking too much on microfinance? ",
+        title:"Why quick commerce is working only in India? ",
         description:"In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
@@ -46,10 +43,10 @@ export const TODAYS_EDITION_DATA=[
 
     },
     {
-        imagePath:zeptoImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/091024_Ola_Electric_Pradip_Saha.jpg",
         headerColor:"rgba(44, 182, 128, 1)",
         heading:"BUSINESS",
-        title:"Is Bandhan banking too much on microfinance? ",
+        title:"How Ola Electric continues to fail its customers? ",
         description:"In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
@@ -60,11 +57,10 @@ export const TODAYS_EDITION_DATA=[
         displayTimeToRead:true,
     },
     {
-        imagePath:farmImg,
-
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/301024_QCom_Pradip_Saha.jpg",
         headerColor:"rgba(44, 182, 128, 1)",
         heading:"BUSINESS",
-        title:"Is Bandhan banking too much on microfinance? ",
+        title:"Why quick commerce is working only in India? ",
         description:"In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
@@ -113,10 +109,10 @@ export const YESTERDAYS_EDITION_DATA=[
 
 export const NEWS_LETTERS_DATA=[
     {
-        imagePath:farmImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/301024_QCom_Pradip_Saha.jpg",
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
-        title:"Is Bandhan banking too much on microfinance? ",
+        title:"Why quick commerce is working only in India? ",
         description:"In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
@@ -128,10 +124,10 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
-        imagePath:zeptoImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/091024_Ola_Electric_Pradip_Saha.jpg",
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
-        title:"Johnny Depp’s doctor, nurse testify; actor expected to take stand",
+        title:"How Ola Electric continues to fail its customers?",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
         displayDescription:false,
@@ -142,11 +138,11 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
-        imagePath:farmImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/301024_QCom_Pradip_Saha.jpg",
 
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
-        title:"Is Bandhan banking too much on microfinance? ",
+        title:"Why quick commerce is working only in India? ",
         description:"In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
@@ -158,11 +154,11 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
-        imagePath:zeptoImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/091024_Ola_Electric_Pradip_Saha.jpg",
 
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
-        title:"Johnny Depp’s doctor, nurse testify; actor expected to take stand",
+        title:"How Ola Electric continues to fail its customers?",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",
         displayDescription:false,
@@ -173,10 +169,10 @@ export const NEWS_LETTERS_DATA=[
 
     },
     {
-        imagePath:farmImg,
+        imagePath:"https://media2.themorningcontext.com/media/posts_images/301024_QCom_Pradip_Saha.jpg",
         headerColor:"rgba(236,183,49,1)",
         heading:"STREET SMART",
-        title:"Is Bandhan banking too much on microfinance? ",
+        title:"Why quick commerce is working only in India? ",
         description:"In trying to keep costs in check at his loss-making airline, chairman Ajay Singh may have created a toxic work atmosphere and poor safety culture.",
         editorName:"Ashish K. Mishra",
         timeToRead:"5 min read",

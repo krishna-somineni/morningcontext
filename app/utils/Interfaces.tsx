@@ -1,8 +1,6 @@
-import { StaticImageData } from "next/image";
-
 export interface articleInterface {
     headerColor?:string;
-    imagePath:StaticImageData;
+    imagePath:string;
     heading?: string;
     title?: string;
     description?: string;

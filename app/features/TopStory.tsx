@@ -13,7 +13,7 @@ const TopStory=(props:topStoryPropsInterface)=>
             </div>
             <div>
                 <span className="text-green-400 font-bold text-[12px] my-1">{heading}</span>
-                <Image src={imagePath} alt="editionPhoto" className="w-[254px] h-[128px] object-fill my-1"></Image>
+                <img src={imagePath} alt="editionPhoto" className="w-[254px] h-[128px] object-fill my-1"></img>
                 <span className="text-[13px] font-bold font-sans my-1">{title}</span>
                 <div className="flex flex-row justify-between">
                     <div className="flex items-center"> 

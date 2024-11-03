@@ -10,7 +10,7 @@ const Article=(props:articlePropsInterface)=>
             <span className="font-bold text-[12px] my-1" style={{color:headerColor}}>{heading}</span>
 
             {/* conditinaly rendering the image based on displayImage property */}
-            {displayImage && <img src={imagePath} alt="editionPhoto"  width={380} height={210} className="w-[380px] h-[210px] my-1 lg:w-full lg:h-full"></img>}
+            {displayImage && <img src={imagePath} alt="editionPhoto" loading="lazy" className="w-[380px] h-[210px] my-1 lg:w-full lg:h-full"></img>}
             <span className="font-bold font-sans my-1" style={{fontSize:titleTextSize}}>{title}</span>
             
              {/* conditinaly rendering the description based on displayDescription property */}
